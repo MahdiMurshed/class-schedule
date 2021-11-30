@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "447529834084",
+    "project_id": "cr-helper-121ac",
+    "storage_bucket": "cr-helper-121ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447529834084:android:b81490c1ef60265c90b171",
+        "android_client_info": {
+          "package_name": "com.example.scheduling_events"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "447529834084-ipcsrq3ot65s6k77e8vqd3jvh39jinvq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.scheduling_events",
+            "certificate_hash": "d9a6f747ba95501e939326435c796903108986e9"
+          }
+        },
+        {
+          "client_id": "447529834084-vl8jj1kksntjm5sadtt8dg6rt5uueh6u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeR-DHAiYNPPXqUTaiQ4WNNesy-xuBGEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "447529834084-vl8jj1kksntjm5sadtt8dg6rt5uueh6u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
