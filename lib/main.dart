@@ -9,6 +9,7 @@ import 'models/event.dart';
 import 'models/event_data_source.dart';
 import 'const/colors.dart';
 import 'provider/EventProvider.dart';
+import 'package:firebase_core/firebase_core.dart';
 //part of event_calendar;
 
 part 'screens/event_calendar_screen.dart';
@@ -17,7 +18,11 @@ part 'color-picker.dart';
 part 'screens/appointment-editor.dart';
 part 'models/Course.dart';
 
-void main() => runApp(MyApp());
+Future main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   final String title = 'Calender';
